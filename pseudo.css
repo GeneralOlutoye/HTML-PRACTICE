@@ -1,0 +1,46 @@
+h1:hover{
+    color: yellowgreen;
+}
+h1::selection{
+    background-color: cyan;
+    color: violet;
+}
+:checked:optional{
+    margin: 2rem;
+}
+p:first-of-type{
+    color: rgb(28, 0, 128);
+}
+p:last-of-type{
+    color: rgb(184, 15, 113);
+}
+input:checked{
+    margin: 4px;
+}
+p:nth-of-type(even){
+    color: rgb(39, 73, 6);
+}
+li:first-child{
+    color: brown;
+}
+li:nth-child(3){
+    color: blueviolet;
+}
+li:last-child{
+    color: blue;
+    font-family: serif;
+}
+p::after{
+    content:'😍';
+}
+p::first-line{
+    color: red;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p::first-letter{
+    color: rgb(163, 7, 7);
+    font-weight: 300;
+    font-size: 20px;
+    
+}
