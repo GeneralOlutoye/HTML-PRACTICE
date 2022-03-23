@@ -16,14 +16,14 @@ body{
 #div1color{
     background-color: rgba(129, 4, 245, 0.562);
     padding-top: 1px;
-    padding-bottom: 140px;
+    padding-bottom: 103px;
 }
 .text{
     margin-left: 50px;
     margin-top: -20px;
 }
 .text h1{
-    font-size: 100px;
+    font-size: 110px;
 }
 .div2{
     width: 45%;
@@ -61,10 +61,15 @@ button{
 #twitter{
     color: white;
     background-color: blue;
-    width: 30%;
+    width: 28%;
     text-align: center;
-    padding: 7px;
+    padding: 5px;
     border-radius: 15px;
+}
+#twitter img{
+    margin-right: 6px;
+    width:18px;
+    margin-bottom: -3px
 }
 #input1, #input2, #input3, #input4, #input5, #input6{
     padding: 5px 15px;
