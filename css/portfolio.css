@@ -1,5 +1,11 @@
 body{
     background-color: black;
+    width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: auto;
+    }
 }
 #body{
     display: flex;
@@ -17,7 +23,7 @@ a{
     justify-content: center;
     text-align: center;
     padding-top: 20px;
-    font-family: cursive;
+    font-size: larger;
     padding-bottom: 160px;
 }
 .contain1text{
@@ -27,23 +33,19 @@ h4{
     color: white;
 }
 #joel{
-    border-radius: 70px;
-    height: 170px;
+    border-radius: 90px;
+    height: 200px;
     width: 200px;
 }
-#container2{
+#Home{
     width: 80%;
     /* background-color: rgba(137, 43, 226, 0.479); */
     background-image: url(/image/SoftwareDev5.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.container2{
-    /* background-color:rgba(14, 12, 14, 0); */
-    height: 500px;
-    padding-top: 1px;
-    padding-bottom: 278px;
+    /* display: flex;
+    flex-direction: column; */
 }
 .contain2text{
     justify-content: center;
@@ -51,9 +53,10 @@ h4{
     font-size: 30px;
 }
 .welcome{
-    color: purple;
+    color:  rgb(83, 15, 97);
     font-size: 50px;
     margin-top: 20px;
+    font-weight: bolder;
 }
 .c2p{
     margin-top: -19px;
@@ -66,7 +69,7 @@ h4{
 }
 .hireme{
     background-color: rgba(16, 18, 88, 0.048);
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
