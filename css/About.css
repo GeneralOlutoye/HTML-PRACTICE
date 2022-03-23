@@ -1,18 +1,7 @@
-
 #About{
     justify-content: center;
     text-align: center;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.068);
-    font-size: 50px;
+    background-color: black;
     margin-left: auto;
-    color: rgba(255, 255, 255, 0.486);
-    font-size: 70px;
-    height: 800px;
-}
-.About{
-    background-color: rgba(255, 255, 255, 0.096);
     color: white;
-    /* opacity: 1px;
-    padding-top: 100px; */
 }
