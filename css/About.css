@@ -1,11 +1,10 @@
 #About{
     justify-content: center;
-    /* margin-left: auto;
-    display: flex; */
 }
 .backgroundtext{
     font-size: 70px;
     text-align: center;
+    color: purple;
 }
 .abouttext{
     width: 45%;
@@ -18,21 +17,26 @@ p .nameline{
     font-weight: 500;
 }
 .namestyle{
-    color:rgb(78, 12, 78)
+    color: purple;
 }
 body{
-    background-image: url(/image/SoftwareDev.avif);
+    background-image: url(/image/softwareDev4.avif);
     background-size: cover;
     background-repeat: no-repeat;
 }
 a{
     text-decoration: none;
 }
+.nameline{
+    color: white;
+    font-size: 40px;
+}
 .fulltext{
-    color: purple;
+    color: white;
 }
 .namedetails{
     width: 20%;
     color: whitesmoke;
     margin-left: auto;
+    font-size: larger;
 }
