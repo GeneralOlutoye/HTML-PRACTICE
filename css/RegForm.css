@@ -9,17 +9,18 @@ body{
 .div1{
     background-image: url(/image/regformimg1.avif);
     background-position: 100%;
+    background-size: cover;
     width: 45%;
     height: 650px;
     color: white;
 }
 #div1color{
-    background-color: rgba(129, 4, 245, 0.562);
+    background-color: rgba(129, 4, 245, 0.329);
     padding-top: 1px;
-    padding-bottom: 103px;
+    padding-bottom: 68px;
+    padding-left: 50px;
 }
 .text{
-    margin-left: 50px;
     margin-top: -20px;
 }
 .text h1{
@@ -36,13 +37,6 @@ body{
 }
 a{
     text-decoration: none;
-}
-.facebook{
-    margin-left: 50px;
-}
-.fb{
-    border-radius: 30px;
-    padding: 8px;
 }
 #box{
     display: flex;
