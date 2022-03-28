@@ -74,11 +74,6 @@ console.log(daudu);
  console.log(segun)
  console.log(typeof segun);
 
- var segun = joel.substring(0,5)
- console.log(segun)
-//  segun= joel.lastIndexOf
-
  var word = "innovation"
-//  words= word.lastIndexOf(innovation)
  console.log(word[word .length-1])
 
