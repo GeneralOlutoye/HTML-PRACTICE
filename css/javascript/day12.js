@@ -42,3 +42,35 @@ var myCalculator = 3;
 myCalculator = 4;
 console.log(myCalculator/2);
 
+var daudu;
+console.log(daudu);
+
+ var adeola;
+ adeola = "beautiful"
+
+ var segun ="The length of the content Adeola is "+adeola.length;
+ console.log(segun);
+
+ var pancho = "lunch"
+ varcase = pancho.toUpperCase();
+
+ let anu = 10;
+ console.log(anu);
+ anu = 20
+ console.log(anu);
+
+ var colorBlue = "characteristics, functions, status"
+ var newColor = colorBlue.split(',')
+ console.log(newColor)
+
+ var joel ="Parenthesis"
+ var segun = joel[0] + joel[3] + joel[5]
+ console.log("The first, third and fifth letter of var joel is = " + segun);
+
+ var segun = joel.split('')
+ console.log(segun);
+
+ var segun = joel[0] + " "+ joel[3] + " "+ joel[5]
+ console.log(segun);
+
+
