@@ -68,9 +68,17 @@ console.log(daudu);
  console.log("The first, third and fifth letter of var joel is = " + segun);
 
  var segun = joel.split('')
- console.log(segun);
+ console.log(segun)
 
- var segun = joel[0] + " "+ joel[3] + " "+ joel[5]
- console.log(segun);
+ var segun = joel [5]
+ console.log(segun)
+ console.log(typeof segun);
 
+ var segun = joel.substring(0,5)
+ console.log(segun)
+//  segun= joel.lastIndexOf
+
+ var word = "innovation"
+//  words= word.lastIndexOf(innovation)
+ console.log(word[word .length-1])
 
