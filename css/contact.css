@@ -18,6 +18,15 @@
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
 }
+.phone::before{
+    content: "📞";
+}
+.mobile::before{
+    content: "☎";
+}
+.mail::before{
+    content: "✉";
+}
 .getintouch{
     color: #20c997;;
     justify-self: center;
@@ -58,7 +67,7 @@ h4{
 }
 .contain1text :hover{
     color: red;
-    /* text-emphasis-position: large; */
+    font-size: large;
     
 }
 a{

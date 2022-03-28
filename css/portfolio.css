@@ -32,6 +32,7 @@ a{
 }
 .contain1text :hover{
     color: red;
+    font-size: large;
     
 }
 h4{
