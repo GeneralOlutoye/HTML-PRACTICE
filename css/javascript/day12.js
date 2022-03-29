@@ -151,9 +151,9 @@ console.log(daudu);
     {name:"Computer", price: 1000},
     {name:"Keyboard", price: 25},
 ];
-console.log(items.filter((items) =>{return items.price<=100}))
+// console.log(items.filter((items) =>{return items.price<=100}))
 
-// var newitems = items.filter((e)=>{return e.price<=100})
-// console.log(newitems)
+var newitems = items.filter((items)=>{return items.price<=100})
+console.log(newitems)
 
 
