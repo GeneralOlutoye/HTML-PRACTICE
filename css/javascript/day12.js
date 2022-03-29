@@ -75,5 +75,85 @@ console.log(daudu);
  console.log(typeof segun);
 
  var word = "innovation"
- console.log(word[word .length-1])
+ console.log(word[word .length-1]);
+
+ var a = 10
+ var b = 20;
+ var c = a+b;
+ console.log(c);
+ 
+ var a = 10
+ var b = 20;
+ var c = a-b;
+ console.log(c);
+ 
+ var a = 10
+ var b = 20;
+ var c = b/a;
+ console.log(c);
+ 
+ var a = 15
+ var b = 20;
+ var c = b%a;
+ console.log(c);
+
+ var d = "25"
+ var e = 25
+ var result = d===e;
+ console.log(result)
+ 
+ var d = "15"
+ var e = 5000
+ d=15;
+ var result = d+e;
+ console.log(result)
+ 
+ var d = "15"
+ var e = 5000
+ d=parseInt(d,10)+e
+ console.log(d)
+
+ var a = ["segun", "osas", "mylord", "cultist", "pancho", "zubs", "joel"]
+ console.log(a[3]);
+
+ var c = {color: "red", name:"modupe"}
+ console.log(c.name)
+ 
+ var c = {color: "red", name:"modupe"}
+ var mo = c["name"]
+ console.log(mo)
+
+ var text_colors=[
+ ["tomatoes", "#f00"],
+ ["celery", "#0f0"],
+ ["Blueberries", "#00f"],
+ ["Lemons", "#ff0"],
+ ["Grapes", "#f0f"],
+ ["koolaide", "#0ff"],
+ ];
+ console.log(text_colors[2][0])
+ console.log(text_colors[5][0])
+
+ var people = [
+     {sex:"male", name:"jeff"},
+     {sex:"female", name:"megan"},
+     {sex:"male", name:"Taylor"},
+     {sex:"female", name:"Madison"},
+ ];
+ console.log(people[2].name)
+
+ const items = [
+     {name:"bike", price:100},
+    {name:"TV", price: 200},
+    {name:"Album", price: 10},
+    {name:"Book", price: 5},
+    {name:"Phone", price: 500},
+    {name:"Computer", price: 1000},
+    {name:"Keyboard", price: 25},
+];
+console.log(items.filter((items) =>{return items.price<=100}))
+
+// var newitems = items.filter((e)=>{return e.price<=100})
+// console.log(newitems)
+
 
