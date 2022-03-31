@@ -155,4 +155,18 @@ console.log(daudu);
 var newitems = items.filter((items)=>{return items.price<=100})
 console.log(newitems)
 
+var savings= 100;
+var interest = 0.04;
+console.log(savings*interest)
+
+var private=100;
+var public=20;
+console.log(private-public)
+
+var rightAnswer=true
+console.log(rightAnswer)
+
+var offSwitch =false
+console.log(offSwitch)
+
 
