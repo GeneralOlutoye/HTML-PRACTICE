@@ -7,13 +7,18 @@
 }
 .header{
     display: flex;
-    /* flex-direction: row; */
-
-
 }
-ul{
-    display: inline;
-    text-decoration: none;
+nav{
+   margin: 1rem 5rem 0rem 50rem;
+   font-size: larger;
+   justify-content: space-between;
+}
+button{
+    border-radius: 15px;
+    border: none;
+    color: rgb(255, 0, 157);
+    margin-top: 12px;
+    margin-left: 0px;
 }
 a{
     text-decoration: none;
