@@ -1,26 +1,55 @@
 #page1{
-    background-image: url(/image/softwareDev.avif);
+    background-image: url(/image/nightsky.avif);
     width: 100%;
     height: 100vh;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .header{
     display: flex;
 }
+.NAME{
+    color: wheat;
+    margin-left: 1.2rem;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Olutoye{
+    color: rgb(255, 0, 157);
+}
 nav{
-   margin: 1rem 5rem 0rem 50rem;
+   margin: 2rem 5rem 0rem 40rem; 
    font-size: larger;
-   justify-content: space-between;
 }
 button{
     border-radius: 15px;
     border: none;
+    color: wheat;
+    background-color: rgb(255, 0, 157);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: wheat;
     color: rgb(255, 0, 157);
-    margin-top: 12px;
-    margin-left: 0px;
 }
 a{
     text-decoration: none;
+    color: wheat;
+    padding: 15px;
+}
+.Page1text{
+    color: white;
+    font-size: 40px;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.Olabode{
     color: rgb(255, 0, 157);
+    font-size: larger;
+    font-weight: bolder;
 }

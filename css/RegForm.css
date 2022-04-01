@@ -15,9 +15,9 @@ body{
     color: white;
 }
 #div1color{
-    background-color: rgba(129, 4, 245, 0.329);
+    background-color: rgba(129, 4, 245, 0.301);
     padding-top: 1px;
-    padding-bottom: 68px;
+    padding-bottom: 15%;
     padding-left: 50px;
 }
 .text{
@@ -55,7 +55,7 @@ button{
 #twitter{
     color: white;
     background-color: blue;
-    width: 28%;
+    width: 25%;
     text-align: center;
     padding: 5px;
     border-radius: 15px;
