@@ -12,16 +12,19 @@
     color: wheat;
     margin-left: 1.2rem;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy;
 }
 .Olutoye{
     color: rgb(255, 0, 157);
 }
 nav{
-   margin: 2rem 5rem 0rem 40rem; 
-   font-size: larger;
+   margin: 2rem 10rem 0rem 28rem; 
+   font-size: larger;text-align: center;
+   justify-items: center;
+   justify-content: center;
+   justify-self: center;
 }
-button{
+.button{
     border-radius: 15px;
     border: none;
     color: wheat;
@@ -40,16 +43,39 @@ button:hover{
 a{
     text-decoration: none;
     color: wheat;
-    padding: 15px;
+    padding: 1.5rem
 }
 .Page1text{
     color: white;
-    font-size: 40px;
     margin-top: 15rem;
     margin-left: 5rem;
+}
+.namestyle{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.mynameis{
+    color: red;
+    font-size: large;
 }
 .Olabode{
     color: rgb(255, 0, 157);
     font-size: larger;
     font-weight: bolder;
+}
+.email{
+    border: none;
+    border-radius: 15px;
+    width: 17%;
+    padding: 7px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(255, 0, 157);
+}
+.letsStart{
+    border: none;
+    background-color: rgb(255, 0, 157);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: -5rem;
 }
