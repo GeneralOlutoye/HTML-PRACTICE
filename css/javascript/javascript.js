@@ -293,6 +293,117 @@ var highTemperature=40
 var lowTemperature=10
 var temperature= lowTemperature<highTemperature
 if(true){
-    console.log(temperature)
+    console.log(temperature);
 }
 
+//code to print out date and time
+var currentDate= new Date
+console.log("current date and time is " + currentDate)
+
+var condition=false;
+if(condition==true){
+    console.log("2")
+}else{
+    console.log("1");
+}
+
+// if it is day we want the bulb to be switched off but at night we want the bulb
+// to be switched on. using the if or else statement, display switch on in your console
+
+var isDay=false
+if(isDay){
+    console.log("switch off")
+}else{
+    console.log("switch on")
+}
+// the else statement does not need its own condition, because it handles cases 
+// whereby the if statement is false.
+// if a variable isSubscribed appears true, and the if condition displays 
+// enjoy 10% off, while that of the else displays "become a subscriber".
+// what's going to be the display on the console. 
+
+var isSubscribed=true
+if(isSubscribed){
+    console.log("enjoy 10% off")
+}else{
+    console.log("become a subscriber")
+}
+
+var isSubscribed=false
+if(isSubscribed){
+    console.log("enjoy 10% off")
+}else{
+    console.log("become a subscriber")
+}
+
+// complete the if and else statement to display HomeFlix and skip the ball
+//  if a variable rating has a value of 57 and the if statement has a condition
+//  of the rating to be greater than or equal to 90, displaying 
+// "buy movie tickets".
+
+var rating=57
+if(rating>=90){
+    console.log("Buy movie ticket")
+}else{
+    console.log("HomeFlix and skip the ball")
+}
+
+// the else if statement can appear as many times as possible, while the else 
+// statement appears once.
+
+var greeting=30
+if(greeting<12){
+    console.log("Good morning")
+}else if(greeting<16){
+    console.log("Good Afternoon")
+}else if(greeting<20){
+    console.log("Good evening")
+}else{
+    console.log("Goodnight")
+}
+
+// what will the code display in the console given the variable stored 
+// to be 75, and the if statement >70 displays "You passed",
+// the else if >90 displays "you got an A" with an additional else if statement 
+// that is greater than 98 disploaying A+.
+// reveal your console if the else statement says "Try again" for every other option
+// 
+
+var score=0
+if(score<=100 && score>98){
+    console.log("You got an A+")
+}else if(score<98 && score>89){
+    console.log("A")
+}else if(score<89 && score>69){
+    console.log("You passed")
+}else{
+    console.log("Try Again")
+}
+
+// LOOPS: is a sequence of instructions that is continually repeated until 
+// a certain condition is met
+
+// what does this code display in the console if a variable cards has a value of 3
+//  and is later reduced by 6
+
+// write a lesser code in other to display the addition of 4 buckets to 
+// the current number of bucket which is 31. 
+
+var noOfBuckets=31
+console.log(noOfBuckets +=3)
+
+// REPEATING CODES WITH WHILE LOOPS
+// 
+// while(true){
+    // console.log("and again")
+// }
+
+// STOPPING THE WHILE LOOPS
+// if a variable biro appears to be true, 
+// give an output that repeats blue.
+
+var bus=true
+while(bus){
+    console.log("keep moving")
+    bus=false;
+}
