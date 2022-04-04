@@ -402,8 +402,8 @@ console.log(noOfBuckets +=3)
 // if a variable biro appears to be true, 
 // give an output that repeats blue.
 
-var bus=true
-while(bus){
-    console.log("keep moving")
-    bus=false;
+var isPen=4
+while(isPen<10){
+    console.log("Hello world")
+    isPen++
 }
