@@ -404,6 +404,26 @@ console.log(noOfBuckets +=3)
 
 var isPen=4
 while(isPen<10){
-    console.log("Hello world")
+    console.log(isPen)
     isPen++
+}
+
+console.log("")
+
+var open=1
+while(open<9){
+    console.log(open)
+    open++
+}
+
+// to create a for loop, we start with a for keyword
+// inside the parentesis, we have a counter variable 
+// which is always represented by i which means index.
+// of which our comparison and every order cab be carrued out.
+
+console.log("")
+
+var i=0
+for(i<3; i++;){
+    console.log(i)
 }
