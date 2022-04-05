@@ -65,7 +65,7 @@ console.log(daudu);
 
  var joel ="Parenthesis"
  var segun = joel[0] + joel[3] + joel[5]
- console.log("The first, third and fifth letter of var joel is = " + segun);
+ console.log("The first, third and fifth letter  of var joel is = " + segun);
 
  var segun = joel.split('')
  console.log(segun)
