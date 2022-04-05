@@ -423,7 +423,116 @@ while(open<9){
 
 console.log("")
 
-var i=0
-for(i<3; i++;){
+var i="********----------"
+for( i<3; i++;){
     console.log(i)
+} 
+
+//code to print out date and time
+var currentDate= new Date
+console.log("current date and time is " + currentDate)
+
+// just as a breather let us write a code that requests for user input and displays 
+// the input if and only if the entered value is less than 100
+// the display should read 'welcome participant you hvae enterede the number...'
+// NB: to accept user input we use the method window.prompt;
+// NB: the windows.prompt method only receives string values
+
+
+// var a= window.prompt("Enter age:")
+var a= 11
+console.log(a)
+
+// var number=window.prompt("Enter number less than 100: ")
+var number=20
+number=parseInt(number, 10)
+if(number< 100){
+    console.log("Welcome participant, you have entered the number: " + number)
+}else{
+    console.log("INVALID INPUT")
 }
+
+// TERNARY OPERATORS: They are conditional operators that assign values to variables 
+// depending on a particular condition. it's like writing an if else statement without 
+// writing the if and else. 
+
+var x=50
+var color= x > 20 ? 'orange' : 'blue'
+console.log(color)
+
+//  SWITCH S
+// switch takes in variables and the variables are ususally carrying values 
+
+var d=11;
+var color= d > 10 ? 'red' : 'blue';
+switch(color) {
+    case 'red':
+        console.log('Color is red')
+        break;
+    case 'blue':
+        console.log('Color is blue')
+        break;
+    default:
+        console.log('def');
+}
+
+// a student is anxious and wants to know what his examination score menas,
+// lets write a code telling him what his grades mean. 
+// Rules: 0-39(F),40-44(E), 45-49(D), 50-59(C), 60-69(B),70-100(A).
+
+var score=window.prompt("Enter student score between zero and Hundred: ")
+score=parseInt(score, 10)
+
+switch(true){
+    case (score<40 && score>-1):
+        console.log("Student got a F")
+        alert("Student got a F")
+        break;
+    case (score>39 && score<45):
+        console.log("Student got an E")
+        alert("Student got an E")
+        break;
+    case (score>44 && score<50):
+        console.log("Student got a D")
+        alert("Student got a D")
+        break;
+    case (score>49 && score<60):
+        console.log("Student got a C")
+        alert("Student got a C")
+        break;
+    case (score>59 && score<70):
+        console.log("Student got a B")
+        alert("Student got a B")
+        break;
+    case (score>69 && score<=100):
+        console.log("Student got an A")
+        alert("Student got an A")
+        break;
+    default:
+        console.log("Invalid student score")
+        alert("Enter a valid score")
+}
+
+// FUNCTION 
+// a javascript function is a block of code designed to perform a particular task. 
+
+function odogwu(p1, p2){
+    // console.log(p1 * p2)
+    // return p1 * p2
+
+    return console.log(p1*p2)
+}
+odogwu(3, 5)
+console.log(odogwu(3, 5))
+
+// THE ES6 ARROW FUNCTION 
+let myFunction = (a, b) => a * b; 
+
+// THE FILTER FUNCTION
+
+const numbers= [1, -1, 2, 3];
+
+const filtered= numbers.filter(function(value){
+    return value>=0;
+})
+console.log(filtered)
