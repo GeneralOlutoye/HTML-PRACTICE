@@ -486,23 +486,23 @@ score=parseInt(score, 10)
 switch(true){
     case (score<40 && score>-1):
         console.log("Student got a F")
-        alert("Student got a F")
+        // alert("Student got a F")
         break;
     case (score>39 && score<45):
         console.log("Student got an E")
-        alert("Student got an E")
+        // alert("Student got an E")
         break;
     case (score>44 && score<50):
         console.log("Student got a D")
-        alert("Student got a D")
+        // alert("Student got a D")
         break;
     case (score>49 && score<60):
         console.log("Student got a C")
-        alert("Student got a C")
+        // alert("Student got a C")
         break;
     case (score>59 && score<70):
         console.log("Student got a B")
-        alert("Student got a B")
+        // alert("Student got a B")
         break;
     case (score>69 && score<=100):
         console.log("Student got an A")
@@ -510,7 +510,7 @@ switch(true){
         break;
     default:
         console.log("Invalid student score")
-        alert("Enter a valid score")
+        // alert("Enter a valid score")
 }
 
 // FUNCTION 
