@@ -15,11 +15,3 @@ console.log(pancho.toUpperCase())
 var colorBlue = "characteristics, functions, status, church"
 var newColor = colorBlue.split(',')
 console.log(newColor)
-
-var loop
-while(loop){
-    console.log("Keep going: " + loop)
-
-    loop ===false
-    console.log("keep going " + loop)
-}
