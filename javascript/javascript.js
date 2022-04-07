@@ -480,7 +480,7 @@ switch(color) {
 // lets write a code telling him what his grades mean. 
 // Rules: 0-39(F),40-44(E), 45-49(D), 50-59(C), 60-69(B),70-100(A).
 
-var score=window.prompt("Enter student score between zero and Hundred: ")
+// var score=window.prompt("Enter student score between zero and Hundred: ")
 score=parseInt(score, 10)
 
 switch(true){
@@ -536,3 +536,95 @@ const filtered= numbers.filter(function(value){
     return value>=0;
 }) 
 console.log(filtered)
+
+//code to print out date and time
+var currentDate= new Date
+console.log("current date and time is " + currentDate)
+// OBJECTS/CLASSES
+// Objects are 
+
+const car={
+    model:"Mustang",
+    color:"red",
+    year:2023,
+
+    drive: function(){
+        console.log("You drive the car");
+    },
+    brake: function(){
+        console.log("You step on the brakes"); 
+    }
+}
+
+const school={
+    name: "Zeekay",
+    type:"Model college",
+    staffs:10,
+
+    newStaff: function() {
+        console.log("New staff added");
+    } 
+}
+
+const Nigeria={
+    state:36,
+    ethnicity:4400,
+    capital:"FCT ABUJA",
+
+    fuelScarcity:()=>console.log("No fuel"),
+    
+    safety:(unsafe, safe)=>console.log()
+}
+
+console.log(Nigeria.state, Nigeria.capital)
+ Nigeria.safety()
+
+// Javascript classes are basically blueprints for creating javascript of objects 
+// within a class we can create as many objects and properties as we want
+// to utilize a class in creating a new object(something as seen in the previous example)
+// we actually instantiate with the keyword new
+
+// the syntax for making a class is literally class valuename
+
+class Player{
+    score=0;
+
+    pause(){
+        console.log("You paused the game");
+    }
+    exit(){
+        console.log("You exited the game");
+    }
+}
+const player1 = new Player();
+
+player1.score +=1;
+
+console.log(player1.score);
+
+player1.pause(); 
+
+// after creating a new class object, then we can access any of the properties or methods defined\
+// within the class using the '.'
+
+// a constructor is a special mothod of a class whose job is to accept arguments 
+// an assign properties or anything else you would like to do when you instantiate an object
+
+class Student{
+    constructor(name, age, gpa){
+        this.name= name;
+        this.age= age;
+        this.gpa= gpa;
+    }
+    study(){
+        console.log(`${this.name} is studying`);
+    }
+}
+
+const Zubs = new Student("Nzube", 20, 2.5)
+console.log(Zubs)
+console.log(Zubs.name)
+console.log(Zubs.age)
+console.log(Zubs.gpa)
+
+Zubs.study()
