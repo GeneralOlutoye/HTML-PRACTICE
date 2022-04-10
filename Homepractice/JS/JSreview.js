@@ -12,6 +12,6 @@ var pancho = "lunch"
 // varcase = pancho.toUpperCase();
 console.log(pancho.toUpperCase()
 
-var colorBlue = "characteristics, functions, status, church"
-var newColor = colorBlue.split(',')
-console.log(newColor)
+// var colorBlue = "characteristics, functions, status, church";
+// var newColor = colorBlue.split(',')
+// console.log(newColor)
