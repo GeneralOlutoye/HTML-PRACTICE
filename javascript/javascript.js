@@ -617,14 +617,18 @@ class Student{
         this.gpa= gpa;
     }
     study(){
-        console.log(`${this.name} is studying`);
+        // console.log(`${this.name} is studying`);
+        console.log(this.name + " is stdying")
     }
 }
 
-const Zubs = new Student("Nzube", 20, 2.0)
+const Zubs = new Student("Nzube", 20, 2.5)
 console.log(Zubs)
-console.log(Zubs.name)
+console.log("Student's name is "+ Zubs.name)
 console.log(Zubs.age)
+document.write("Student is "+ Zubs.age + " years old.")
+document.write("")
 console.log(Zubs.gpa)
+document.write("Student's GPA is "+ Zubs.gpa)
 
 Zubs.study()
