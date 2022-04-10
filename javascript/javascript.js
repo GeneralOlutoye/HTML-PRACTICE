@@ -152,10 +152,11 @@ console.log(daudu);
     {name:"Keyboard", price: 25},
 ];
 
-var newitems = items.filter((items)=>{return items.price<=100})
-console.log(newitems)
-console.log("")
+// var newitems = items.filter((items)=>{return items.price<=100})
+// console.log(newitems)
+// console.log("")
 
+var newitems= items.filter(function(items))
 //code to print out date and time
 var currentDate= new Date
 console.log("current date and time is " + currentDate)
@@ -196,7 +197,7 @@ var breed="Labrador"
 var age=3
 var petDescription=petName+breed+", "+age
 // console.log("petName and age = " + petDescription)
-console.log("petName and age = "+ petName + "-" + breed + "," + " " + age)
+console.log("petName and age = "+ petName + "-" + breed + ", " + age)
 
 // create a variable numberOfWaterTaken with a value number 5,
 // and another variable with a name timeDifference given a value 3Hours.
@@ -506,7 +507,7 @@ switch(true){
         break;
     case (score>69 && score<=100):
         console.log("Student got an A")
-        alert("Student got an A")
+        // alert("Student got an A")
         break;
     default:
         console.log("Invalid student score")
@@ -563,7 +564,8 @@ const school={
 
     newStaff: function() {
         console.log("New staff added");
-    } 
+    },
+
 }
 
 const Nigeria={
@@ -588,7 +590,7 @@ console.log(Nigeria.state, Nigeria.capital)
 
 class Player{
     score=0;
-
+  
     pause(){
         console.log("You paused the game");
     }
@@ -604,7 +606,7 @@ console.log(player1.score);
 
 player1.pause(); 
 
-// after creating a new class object, then we can access any of the properties or methods defined\
+// after creating a new class object, then we can access any of the properties or methods defined
 // within the class using the '.'
 
 // a constructor is a special mothod of a class whose job is to accept arguments 
@@ -627,8 +629,7 @@ console.log(Zubs)
 console.log("Student's name is "+ Zubs.name)
 console.log(Zubs.age)
 document.write("Student is "+ Zubs.age + " years old.")
-document.write("")
 console.log(Zubs.gpa)
 document.write("Student's GPA is "+ Zubs.gpa)
 
-Zubs.study()
+Zubs.study() 
