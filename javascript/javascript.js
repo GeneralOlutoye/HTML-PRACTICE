@@ -621,7 +621,7 @@ class Student{
     }
 }
 
-const Zubs = new Student("Nzube", 20, 2.5)
+const Zubs = new Student("Nzube", 20, 2.0)
 console.log(Zubs)
 console.log(Zubs.name)
 console.log(Zubs.age)
