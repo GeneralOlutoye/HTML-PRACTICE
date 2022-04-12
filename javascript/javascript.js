@@ -632,28 +632,28 @@
 // document.write("Student's GPA is "+ Zubs.gpa)
 // Zubs.study()
 
-// console.log("")
-// console.log("Monday 11th April, 2022")
+console.log("")
+console.log("Monday 11th April, 2022")
 
-// class Car{
+class Car{
 
-//     static numberOfCars=0
-//     constructor(model, transmission){
-//         this.model=model
-//         this.transmission=transmission
-//         Car.numberOfCars+=1;
-//     }
-// }
+    static numberOfCars=0
+    constructor(model, transmission){
+        this.model=model
+        this.transmission=transmission
+        Car.numberOfCars+=1;
+    }
+}
 
-// const car1= new Car("Mustang", "Manual")
-// const car2= new Car("Corvette")
-// const car3= new Car("BMW")
-// const car4= new Car("Rolls-Royce")
+const car1= new Car("Mustang", "Manual")
+const car2= new Car("Corvette")
+const car3= new Car("BMW")
+const car4= new Car("Rolls-Royce")
 
-// console.log(Car.numberOfCars)
-// console.log(car1.model,"is a", car1.transmission, "car.")
+console.log(Car.numberOfCars)
+console.log(car1.model,"is a", car1.transmission, "car.")
 
-// console.log("")
+console.log("")
 
 // STATIC KEYWORD
 // Makes a method/property acceptable to a variable while this assigns a variable.
@@ -665,150 +665,48 @@
 // the properties and methods of its parent class. 
 
 
-// class Animal{
-//     alive=true
-//     eat(){
-//         console.log(`This ${this.name} eats`)
-//     }
-//     sleep(){
-//         console.log(`${this.name} sleeps`)
-//     }
-// }
-// class Fish extends Animal{
-//     name="Catfish"
-//     move(){
-//         console.log(`This ${this.name} can swim`)
-//     }
-// }
-// class Cheetah extends Animal{
-//     name="Nzube"
-//     move(){
-//         console.log(`This ${this.name} runs`)
-//     }
-// }
-// class Snail extends Animal{
-//     name="snail"
-//     move(){
-//         console.log(`This ${this.name} crawls`)
-//     }
-// }
-// const cat= new Cheetah()
-// console.log("The cat's name is",cat.name)
-// cat.sleep()
-
-// const joel= new Fish()
-// console.log(joel.name)
-// joel.eat()
-
-// const pancho= new Snail()
-// pancho.sleep()
- 
-// var names = window.prompt("Enter name: ")
-// console.log(`My name is ${names}`)
-
-// // Tuesday 12th of April 2022
-// class Car{
-//     static numberOfCars=0
-//     constructor(model, transmission){
-//         this.model=model
-//         this.transmission=transmission
-//         Car.numberOfCars+=1;
-//     }
-//     wheelType(frontWheel, backWheel){
-//         this.frontWheel=frontWheel
-//         this.backWheel=backWheel
-//     }
-//     engine(v6, v8){
-//         this.v6=v6
-//         this.v8=v8
-//     }
-// }
-
-// class Maserati extends Car{
-//     color(){
-//         console.log(`color is ${window.prompt}`)
-//     }
-// }
-// class BullionVan extends Car{
-//     color(){
-//         var colour= window.prompt("Enter color here")
-//         console.log(`color is ${window.prompt}`)
-//     }
-// }
-// class Golf extends Car{
-//     color(){
-//         // console.log(`My Golf is color ${window.prompt("Enter Car color: ")}`)
-//     }
-// }
-// class Danfo extends Car{
-//     color(){
-//         // console.log(`color is` + window.prompt("Enter color: "))
-//     }
-// }
-
-// const car1= new Maserati("FrontWheel", "manual")
-// const car2= new BullionVan()
-// const car3= new Golf()
-// const car4= new Danfo()
-// console.log(`There are ${Car.numberOfCars} cars in my garage`)
-// car3.color()
- 
 class Animal{
     alive=true
-    constructor(name, age){
-        this.name=name
-        this.age=age
+    eat(){
+        console.log(`This ${this.name} eats`)
+    }
+    sleep(){
+        console.log(`${this.name} sleeps`)
     }
 }
-
-class Rabbit extends Animal{
-    constructor(name, age, runSpeed){
-    super(name, age)
-    this.runSpeed=runSpeed
+class Fish extends Animal{
+    name="Catfish"
+    move(){
+        console.log(`This ${this.name} can swim`)
     }
 }
-
-const rabbit = new Rabbit("Zubs", 21, 20)
-console.log(`My rabbit ${rabbit.name} runs at a speed of ${rabbit.runSpeed} mph and is ${rabbit.age} years old`)
-console.log(rabbit)
-
-// GETTERS Get is a key word in javascript whose job is to bind an object property to a 
-// function when that function is accessed. 
-// 
-
-// class Car{
-//     constructor(power){
-//         this._agbara=power
-//         this._gas=20
-
-//     }
-//     get power(){
-//         return `${this._agbara} Wat`
-//     }
-//     get gas(){
-//         return (this._gas/100*20)
-//     }
-// }
-// const car = new Car(200) 
-// console.log(car.power)
-// console.log(car.gas)
-
-var value =window.prompt("Enter Tank Capacity: ")
-if(value<=25){
-class Honda{
-    constructor(gas){
-        this._fullTank=value
-        this._gasLevel=window.prompt("Enter gas level ")
-
+class Cheetah extends Animal{
+    name="Nzube"
+    move(){
+        console.log(`This ${this.name} runs`)
     }
-    get levelOfGas(){
-        return "My Honda Accord tank capacity is " +this._fullTank + "L and tank is "+this._gasLevel/this._fullTank*100+"% full"
+}
+class Snail extends Animal{
+    name="snail"
+    move(){
+        console.log(`This ${this.name} crawls`)
     }
+}
+const cat= new Cheetah()
+console.log("The cat's name is",cat.name)
+cat.sleep()
+
+const joel= new Fish()
+console.log(joel.name)
+joel.eat()
+
+const pancho= new Snail()
+pancho.sleep()
+ 
+var names = window.prompt("Enter name: ")
+console.log(`My name is ${names}`)
+
+class Car{
+    brakes=true
     
 }
-const Accord = new Honda() 
-console.log(Accord.levelOfGas)
-}else(alert("Enter a value less than 25"))
-
-
-
