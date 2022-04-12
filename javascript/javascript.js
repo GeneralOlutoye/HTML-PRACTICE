@@ -776,22 +776,39 @@ console.log(rabbit)
 // function when that function is accessed. 
 // 
 
-class Car{
-    constructor(power){
-        this._agbara=power
-        this._gas=20
+// class Car{
+//     constructor(power){
+//         this._agbara=power
+//         this._gas=20
+
+//     }
+//     get power(){
+//         return `${this._agbara} Wat`
+//     }
+//     get gas(){
+//         return (this._gas/100*20)
+//     }
+// }
+// const car = new Car(200) 
+// console.log(car.power)
+// console.log(car.gas)
+
+var value =window.prompt("Enter Tank Capacity: ")
+if(value<=25){
+class Honda{
+    constructor(gas){
+        this._fullTank=value
+        this._gasLevel=window.prompt("Enter gas level ")
 
     }
-    get power(){
-        return `${this._agbara} Wat`
+    get levelOfGas(){
+        return "My Honda Accord tank capacity is " +this._fullTank + "L and tank is "+this._gasLevel/this._fullTank*100+"% full"
     }
-    get gas(){
-        return (this._gas/100*20)
-    }
+    
 }
-const car = new Car(200) 
-console.log(car.power)
-console.log(car.gas)
+const Accord = new Honda() 
+console.log(Accord.levelOfGas)
+}else(alert("Enter a value less than 25"))
 
 
 
