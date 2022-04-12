@@ -811,6 +811,3 @@ class Honda{
 const Accord = new Honda() 
 console.log(Accord.levelOfGas)
 }else(alert("Enter a value less than 25"))
-
-
-
