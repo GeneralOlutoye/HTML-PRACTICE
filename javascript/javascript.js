@@ -769,7 +769,9 @@ class Rabbit extends Animal{
 }
 
 const rabbit = new Rabbit("Zubs", 21, 20)
-console.log(`My rabbit ${rabbit.name} runs at a speed of ${rabbit.runSpeed} mph and is ${rabbit.age} years old`)
+console.log(rabbit.name, rabbit.runSpeed)
+document.write(`My rabbit ${rabbit.name} runs at a speed of ${rabbit.runSpeed} mph and is ${rabbit.age} years old`)
+document.write("")
 console.log(rabbit)
 
 // GETTERS Get is a key word in javascript whose job is to bind an object property to a 
@@ -793,7 +795,7 @@ console.log(rabbit)
 // console.log(car.power)
 // console.log(car.gas)
 
-var value =window.prompt("Enter Tank Capacity: ")
+var value = window.prompt("Enter Fuel Tank Capacity: ")
 if(value<=25){
 class Honda{
     constructor(gas){
@@ -802,7 +804,7 @@ class Honda{
 
     }
     get levelOfGas(){
-        return "My Honda Accord tank capacity is " +this._fullTank + "L and tank is "+this._gasLevel/this._fullTank*100+"% full"
+        return "Honda Accord tank capacity is " +this._fullTank + "L and tank is at"+this._gasLevel/this._fullTank*100+"%"
     }
     
 }
