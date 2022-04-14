@@ -56,7 +56,7 @@
 
 //  let anu = 10;
 //  console.log(anu);
-//  anu = 20
+//  anu = 20 
 //  console.log(anu);
 
 //  var colorBlue = "characteristics, functions, status"
@@ -794,7 +794,7 @@ console.log(rabbit)
 // const car = new Car(200) 
 // console.log(car.power)
 // console.log(car.gas)
-
+  
 var value = window.prompt("Enter Fuel Tank Capacity: ")
 if(value<=25){
 class Honda{
@@ -804,10 +804,11 @@ class Honda{
 
     }
     get levelOfGas(){
-        return "Honda Accord tank capacity is " +this._fullTank + "L and tank is at"+this._gasLevel/this._fullTank*100+"%"
+        return `${this._fullTank}L (${this._fullTank*2}%)`
     }
     
 }
 const Accord = new Honda() 
 console.log(Accord.levelOfGas)
-}else(alert("Enter a value less than 25"))
+alert(`Honda Accord tank capacity is ${Accord._fullTank}L and tank is at (${Accord._fullTank*2}%)`)
+}else(alert("Enter a value less than 25 litres"))
