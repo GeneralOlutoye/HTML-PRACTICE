@@ -811,4 +811,6 @@ class Honda{
 const Accord = new Honda() 
 console.log(Accord.levelOfGas)
 alert(`Honda Accord tank capacity is ${Accord._fullTank}L and tank is at (${Accord._fullTank*2}%)`)
-}else(alert("Enter a value less than 25 litres"))
+}else(alert("Enter a value less than 25 litres and above 0litre  "))
+
+// setters bind an object porperty to a function when that function has already been assigned a value  
