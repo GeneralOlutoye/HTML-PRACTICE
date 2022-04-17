@@ -8,13 +8,24 @@
 }
 #display{
     border: none;
-    height: 7rem;
+    height: 3.5rem;
+    width: 96.5%;
+    background-color: gray;
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
+    margin-left: 4px;
+}
+#display2{
+    border: none;
+    height: 3.5rem;
     width: 96.5%;
     background-color: black;
     color: white;
     font-style: oblique;
     font-size: 30px;
     margin-left: 4px;
+    justify-content: right;
 }
 button{
     border: none;

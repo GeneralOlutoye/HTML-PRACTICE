@@ -5,4 +5,5 @@ function equalsign() {
     var a = document.getElementById("display").value
     var b = eval(a)
     document.getElementById("display").value = b
-} 
+    document.getElementById("display2").value+=a
+}
