@@ -1,0 +1,53 @@
+.container{
+    border: 1px solid;
+    width: 20%;
+    height: 25rem;
+    background-color: rgba(0, 0, 0, 0.822);
+    justify-content: space-evenly;
+    /* margin: auto; */
+}
+#display{
+    border: none;
+    height: 3.5rem;
+    width: 96.5%;
+    background-color: gray;
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
+    margin-left: 4px;
+}
+#display2{
+    border: none;
+    height: 3.5rem;
+    width: 96.5%;
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
+    margin-left: 4px;
+    justify-content: right;
+}
+button{
+    border: none;
+    width:4.6rem;
+    height: 3.3rem;
+    text-align: center;
+    margin: 2px;
+    font-size: larger;
+    font-weight: 200;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3px;
+}
+#color{
+    background-color: blue;
+    color: white;
+}
+#red{
+    background-color: red;
+}
+body{
+    background-color: burlywood;
+}
