@@ -1,9 +1,10 @@
 .container{
     border: 1px solid;
-    width: 20%;
+    width: 19.6%;
     height: 25rem;
     background-color: rgba(0, 0, 0, 0.822);
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     /* margin: auto; */
 }
 #display{
@@ -30,12 +31,13 @@
 }
 button{
     border: none;
-    width:4.6rem;
+    width: 3.8rem;
     height: 3.3rem;
     text-align: center;
     margin: 2px;
     font-size: larger;
     font-weight: 200;
+    background: linear-gradient(to bottom right, #fb5283, #ff3);
 }
 .buttons{
     display: flex;

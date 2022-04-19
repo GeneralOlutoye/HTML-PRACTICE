@@ -814,7 +814,15 @@
 // }else(alert("Enter a value less than 25 litres and above 0litre  "))
 
 // setters bind an object porperty to a function when that function has already been assigned a value  
+// 19th April, 2022
+// MAP is a method performed on an array that takes in a function instead of just arguments, and 
+// then performs the functions on the array. 
 
 let j=[11, 8, 90, 50]
-let k= j.map(i=>i*3+2)
+let k= j.map(i=>{
+    return i*3+2
+})
 console.log(k)
+// let k= j.map(i=>i*3+2)
+// console.log(k)
+
