@@ -10,11 +10,13 @@
     border: none;
     height: 3.5rem;
     width: 96.5%;
-    background-color: gray;
+    background-color: black;
     color: white;
     font-style: oblique;
     font-size: 30px;
     margin-left: 4px;
+    text-align: right;
+    justify-content: right;
 }
 #display2{
     border: none;
@@ -25,7 +27,6 @@
     font-style: oblique;
     font-size: 30px;
     margin-left: 4px;
-    justify-content: right;
 }
 button{
     border: none;

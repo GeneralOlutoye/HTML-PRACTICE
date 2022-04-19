@@ -753,26 +753,26 @@
 // console.log(`There are ${Car.numberOfCars} cars in my garage`)
 // car3.color()
  
-class Animal{
-    alive=true
-    constructor(name, age){
-        this.name=name
-        this.age=age
-    }
-}
+// class Animal{
+//     alive=true
+//     constructor(name, age){
+//         this.name=name
+//         this.age=age
+//     }
+// }
 
-class Rabbit extends Animal{
-    constructor(name, age, runSpeed){
-    super(name, age)
-    this.runSpeed=runSpeed
-    }
-}
+// class Rabbit extends Animal{
+//     constructor(name, age, runSpeed){
+//     super(name, age)
+//     this.runSpeed=runSpeed
+//     }
+// }
 
-const rabbit = new Rabbit("Zubs", 21, 20)
-console.log(rabbit.name, rabbit.runSpeed)
-document.write(`My rabbit ${rabbit.name} runs at a speed of ${rabbit.runSpeed} mph and is ${rabbit.age} years old`)
-document.write("")
-console.log(rabbit)
+// const rabbit = new Rabbit("Zubs", 21, 20)
+// console.log(rabbit.name, rabbit.runSpeed)
+// document.write(`My rabbit ${rabbit.name} runs at a speed of ${rabbit.runSpeed} mph and is ${rabbit.age} years old`)
+// document.write("")
+// console.log(rabbit)
 
 // GETTERS Get is a key word in javascript whose job is to bind an object property to a 
 // function when that function is accessed. 
@@ -795,22 +795,26 @@ console.log(rabbit)
 // console.log(car.power)
 // console.log(car.gas)
   
-var value = window.prompt("Enter Fuel Tank Capacity: ")
-if(value<=25){
-class Honda{
-    constructor(gas){
-        this._fullTank=value
-        this._gasLevel=window.prompt("Enter gas level ")
+// var value = window.prompt("Enter Fuel Tank Capacity: ")
+// if(value<=25){
+// class Honda{
+//     constructor(gas){
+//         this._fullTank=value
+//         this._gasLevel=window.prompt("Enter gas level ")
 
-    }
-    get levelOfGas(){
-        return `${this._fullTank}L (${this._fullTank*2}%)`
-    }
+//     }
+//     get levelOfGas(){
+//         return `${this._fullTank}L (${this._fullTank*2}%)`
+//     }
     
-}
-const Accord = new Honda() 
-console.log(Accord.levelOfGas)
-alert(`Honda Accord tank capacity is ${Accord._fullTank}L and tank is at (${Accord._fullTank*2}%)`)
-}else(alert("Enter a value less than 25 litres and above 0litre  "))
+// }
+// const Accord = new Honda() 
+// console.log(Accord.levelOfGas)
+// alert(`Honda Accord tank capacity is ${Accord._fullTank}L and tank is at (${Accord._fullTank*2}%)`)
+// }else(alert("Enter a value less than 25 litres and above 0litre  "))
 
 // setters bind an object porperty to a function when that function has already been assigned a value  
+
+let j=[11, 8, 90, 50]
+let k= j.map(i=>i*3+2)
+console.log(k)

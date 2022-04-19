@@ -1,4 +1,4 @@
-function val(val) {
+ function val(val) {
     document.getElementById("display").value += val
 }
 function equalsign() {
