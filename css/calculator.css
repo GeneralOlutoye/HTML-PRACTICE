@@ -5,7 +5,6 @@
     background-color: rgba(0, 0, 0, 0.822);
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
 }
 #display{
     border: none;
@@ -31,12 +30,13 @@
 }
 button{
     border: none;
-    width: 3.8rem;
+    width: 4.5rem;
     height: 3.3rem;
     text-align: center;
     margin: 2px;
     font-size: larger;
     font-weight: 200;
+    border-radius: 15px;
     background: linear-gradient(to bottom right, #fb5283, #ff3);
 }
 .buttons{
@@ -45,7 +45,6 @@ button{
     margin-left: 3px;
 }
 #color{
-    background-color: blue;
     color: white;
 }
 #red{
