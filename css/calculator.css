@@ -1,7 +1,7 @@
 .container{
     border: 1px solid;
     width: 19.6%;
-    height: 25rem;
+    height: 25.2rem;
     background-color: rgba(0, 0, 0, 0.822);
     justify-content: center;
     align-items: center;
@@ -36,8 +36,12 @@ button{
     margin: 2px;
     font-size: larger;
     font-weight: 200;
-    border-radius: 15px;
-    background: linear-gradient(to bottom right, #fb5283, #ff3);
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #e13939, #ff3);
+    box-shadow: 1px 2px 3px 0px white;
+}
+#AC{
+    width: 9.2rem;
 }
 .buttons{
     display: flex;
@@ -51,5 +55,5 @@ button{
     background-color: red;
 }
 body{
-    background-color: burlywood;
+    background-color:cornflowerblue;
 }
