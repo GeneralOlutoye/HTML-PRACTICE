@@ -1,59 +1,55 @@
 .container{
     border: 1px solid;
-    width: 19.6%;
-    height: 25.4rem;
-    background-color: rgba(0, 0, 0, 0.822);
+    width: 20%;
+    height: 26rem;
+    background-color: rgb(0, 0, 0);
     justify-content: center;
-    align-items: center;
+    align-content: center;
     margin-left: 4rem;
 }
 #display{
     border: none;
     height: 3.5rem;
-    width: 96.5%;
-    background-color: black;
+    width: 98.5%;
+    background-color:#185a9d;
     color: white;
     font-style: oblique;
     font-size: 30px;
-    margin-left: 4px;
     text-align: right;
     justify-content: right;
 }
 #display2{
     border: none;
     height: 3.5rem;
-    width: 96.5%;
-    background-color: black;
+    width: 98.5%;
+    background-color:#185a9d;
     color: white;
     font-style: oblique;
     font-size: 30px;
-    margin-left: 4px;
 }
 button{
     border: none;
-    width: 4.5rem;
-    height: 3.3rem;
+    height: 2.75em;
     text-align: center;
     margin: 2.4px;
+    color: white;
     font-size: larger;
     font-weight: 200;
-    border-radius: 5px;
-    background: linear-gradient(to bottom right, #e13939, #ff3);
+    border-radius: 3px;
+    /* background: linear-gradient(to bottom right, #e13939, #ff3); */
+    background: linear-gradient(to bottom right, #cc2b5e, #185a9d);
     box-shadow: 1px 2px 3px 0px white;
 }
-#AC{
-    width: 9.2rem;
-}
 .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 1px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 4px;
 }
-#color{
-    color: white;
+#equalTo{
+    grid-column: span 2
 }
-#red{
-    background-color: red;
+#AC{
+    grid-column: span 2
 }
 body{
     background-color:cornflowerblue;
