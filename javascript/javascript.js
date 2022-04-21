@@ -1,3 +1,11 @@
+// Javascript data types
+// 1. object
+// 2. strings
+// 3. Number
+// 4. Boolean
+// 5. Null
+// 6. symbol
+// 7. undefined.
 // var greeting = "Hello, World";
 // console.log(greeting);
 
@@ -546,7 +554,7 @@
 // const car={
 //     model:"Mustang",
 //     color:"red",
-//     year:2023,
+//     year:2023, 
 
 //     drive: function(){
 //         console.log("You drive the car");
@@ -818,11 +826,31 @@
 // MAP is a method performed on an array that takes in a function instead of just arguments, and 
 // then performs the functions on the array. 
 
-let j=[11, 8, 90, 50]
-let k= j.map(i=>{
-    return i*3+2
-})
-console.log(k)
+// let j=[11, 8, 90, 50]
+// let k= j.map(i=>{
+//     return i*3+2
+// })
+// console.log(k)
 // let k= j.map(i=>i*3+2)
 // console.log(k)
 
+// function Hypotenuse(a,b){
+//     let j;
+//     return math.sqrt(math.pow(a, 2), math.pow(b, 10))
+// }
+// console.log(Hypotenuse(20,50))
+
+// let a=prompt('Enter value of a ')
+// a=Number(Math.pow(a, 2))
+// let b=prompt('Enter value of b ')
+// b=Number(Math.pow(b, 2))
+
+// let x=a+b
+// let y=Math.sqrt(x)
+// alert(`square root of ${x} is ${y}`)
+// console.log(`square root of ${x} is ${y}`)
+
+const a = window.prompt(`Enter first value`)
+const b = window.prompt(`Enter second value`)
+const c = math.sqrt(math.pow(a, 10)+ math.pow(b, 10))
+console.log(`square root of c is ${c}`)

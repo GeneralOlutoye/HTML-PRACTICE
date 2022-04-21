@@ -6,11 +6,12 @@
     justify-content: center;
     align-content: center;
     margin: auto;
+    margin-top: 8em;
 }
 #display{
     border: none;
     height: 2rem;
-    width: 98.5%;
+    width: 98%;
     background-color:#185a9d;
     color: white;
     font-style: oblique;
@@ -21,7 +22,7 @@
 #display2{
     border: none;
     height: 2rem;
-    width: 98.5%;
+    width: 98%;
     background-color:#185a9d;
     color: white;
     font-style: oblique;
@@ -36,9 +37,8 @@ button{
     font-size: larger;
     font-weight: 200;
     border-radius: 3px;
-    /* background: linear-gradient(to bottom right, #e13939, #ff3); */
     background: linear-gradient(to bottom right, #cc2b5e, #185a9d);
-    box-shadow: 1px 2px 3px 0px white;
+    box-shadow: 1px 3px 3px 0px white;
 }
 .buttons{
     display: grid;
@@ -53,4 +53,5 @@ button{
 }
 body{
     background-color:cornflowerblue;
+    justify-content: space-around;
 }
