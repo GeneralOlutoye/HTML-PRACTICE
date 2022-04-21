@@ -7,3 +7,9 @@ function equalsign() {
     document.getElementById("display").value = b
     document.getElementById("display2").value+=a
 }
+function del(){
+    display.value=display.value.slice(0, -1)
+}
+function AC(){
+    display.value=""
+}
