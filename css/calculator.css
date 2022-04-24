@@ -1,57 +1,28 @@
 .container{
-    border: 1px solid;
-    width: 20%;
-    height: 23rem;
-    background-color: rgb(0, 0, 0);
-    justify-content: center;
-    align-content: center;
-    margin: auto;
-    margin-top: 8em;
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 3px 3px #999;
 }
 #display{
-    border: none;
-    height: 2rem;
-    width: 98%;
+    height: 4em;
+    line-height: 4em;
+    padding: 16px 8px;
     background-color:#185a9d;
     color: white;
-    font-style: oblique;
-    font-size: 30px;
+    font-size: 25px;
     text-align: right;
     justify-content: right;
 }
-#display2{
-    border: none;
-    height: 2rem;
-    width: 98%;
-    background-color:#185a9d;
-    color: white;
-    font-style: oblique;
-    font-size: 30px;
-}
 button{
-    border: none;
-    height: 2.75em;
+    border: 0.5px solid #999;
+    line-height: 100px;
     text-align: center;
-    margin: 2.4px;
     color: white;
-    font-size: larger;
-    font-weight: 200;
-    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
     background: linear-gradient(to bottom right, #cc2b5e, #185a9d);
-    box-shadow: 1px 3px 3px 0px white;
 }
 .buttons{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 4px;
-}
-#equalTo{
-    grid-column: span 2
-}
-#AC{
-    grid-column: span 2
-}
-body{
-    background-color:cornflowerblue;
-    justify-content: space-around;
 }
