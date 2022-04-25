@@ -850,7 +850,21 @@
 // alert(`square root of ${x} is ${y}`)
 // console.log(`square root of ${x} is ${y}`)
 
-const a = window.prompt(`Enter first value`)
-const b = window.prompt(`Enter second value`)
-const c = math.sqrt(math.pow(a, 10)+ math.pow(b, 10))
-console.log(`square root of c is ${c}`)
+// const a = window.prompt(`Enter first value`)
+// const b = window.prompt(`Enter second value`)
+// const c = math.sqrt(math.pow(a, 10)+ math.pow(b, 10))
+// console.log(`square root of c is ${c}`)
+
+console.log(document)
+console.dir(document)
+
+console.log(document.URL)
+
+document.title= "Joel"
+console.log(document.title)
+
+// document.location= "http://calcolutoye.netlify.app";
+
+document.body.style.backgroundColor= "skyblue"
+
+

@@ -1,0 +1,5 @@
+DOM is simply short hand for document object model. technically, its an 
+API used for affecting the contents of a webpage.
+
+Document is the entry point of our DOM so if i type the below code into 
+my editor i should get a result that correlates with the tree above.
