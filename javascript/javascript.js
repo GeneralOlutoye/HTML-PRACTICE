@@ -855,16 +855,45 @@
 // const c = math.sqrt(math.pow(a, 10)+ math.pow(b, 10))
 // console.log(`square root of c is ${c}`)
 
-console.log(document)
-console.dir(document)
+// console.log(document)
+// console.dir(document)
 
-console.log(document.URL)
+// console.log(document.URL)
 
-document.title= "Joel"
-console.log(document.title)
+// document.title= "Joel"
+// console.log(document.title)
 
 // document.location= "http://calcolutoye.netlify.app";
 
-document.body.style.backgroundColor= "skyblue"
+// document.body.style.backgroundColor= "skyblue"
 
+// 26th April 2022
+
+
+// let list = document.getElementsByTagName("li")
+// let b = Array.from(list)
+// console.log(b)
+
+// list = Array.from(document.querySelectorAll("li")) 
+
+// list.map(awo=>{
+//     awo.style.backgroundColor='red'
+// })
+
+// DOM querySelector is used to pick any HTML element
+//DOM TRAVERSAL
+
+// let element = document.body
+// let child= element.firstElementChild
+// child.style.backgroundColor='violet'
+
+let element = document.querySelector("#vegetables")
+let parent= element.parentElement;
+parent.style.backgroundColor= 'lightgreen'
+ 
+let sibling= element.nextElementSibling
+sibling.style.backgroundColor='red'
+
+let fruit= element.previousElementSibling
+fruit.style.backgroundColor='grey'
 
