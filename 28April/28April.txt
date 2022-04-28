@@ -14,8 +14,14 @@ property called onmouseover.
 
 *onMouseDown - This property is technichally the same as the onclick
     property just that it rhymes well with the onMouseup property. 
-    
+
 *onMouseup
-*onLoad
+
+*onLoad - This is a very interesting propertye because the action it listens
+    to is the load action. Meaning it gets executed upon loading the page
+
+
+ADD EVENT LISTENER METHOD
+ 
 
 
