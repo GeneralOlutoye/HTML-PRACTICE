@@ -16,3 +16,4 @@ document.getElementById("reset").onclick=function(){
 document.getElementById(`counter`).innerHTML=count
 }
 
+ 
