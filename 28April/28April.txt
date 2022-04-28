@@ -1,0 +1,27 @@
+usually webpages are built so that users can be able to interact with 
+the websites and have wonderful experineces.
+such interactions are called events in javascript some of which include
+*onclick - a property that listens for click events in javascript using 
+    the onclick property. this is usally assigned a function.
+
+*onchange - we can listen for change events in javascript using the 
+    onchange property. This is also usually assigned a function.
+
+*onmouseover - we can also listen for hover events using a special
+property called onmouseover. 
+
+*onMouseOut - 
+
+*onMouseDown - This property is technichally the same as the onclick
+    property just that it rhymes well with the onMouseup property. 
+
+*onMouseup
+
+*onLoad - This is a very interesting propertye because the action it listens
+    to is the load action. Meaning it gets executed upon loading the page
+
+
+ADD EVENT LISTENER METHOD
+ 
+
+

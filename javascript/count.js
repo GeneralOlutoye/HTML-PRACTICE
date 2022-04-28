@@ -15,5 +15,3 @@ document.getElementById("reset").onclick=function(){
     count =0
 document.getElementById(`counter`).innerHTML=count
 }
-
- 
