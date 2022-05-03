@@ -1,9 +1,16 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section{
     margin: 6em auto auto auto;
     width: 25%;
     text-align: center;
     justify-content: center;
     justify-self: center;
+
 }
 .buttons{
     display: grid;
