@@ -1,0 +1,34 @@
+section{
+    margin: 6em auto auto auto;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 3em;
+}
+button{
+    margin: 4px;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#reset{
+    padding: 15px 25px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+#game_name{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    color: blue;
+    font-size: larger;
+}
