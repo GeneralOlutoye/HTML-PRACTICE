@@ -1,15 +1,20 @@
 body{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(/image/mercedex.avif);
+    background-size: cover;
+    background-position: 0rem;
 }
 section{
-    margin: 6em auto auto auto;
+    margin: 6em auto 0px auto;
     width: 25%;
+    height: 40%;
     text-align: center;
     justify-content: center;
     justify-self: center;
+    border: 1px solid gold;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgba(0, 0, 0, 0.448);
 
 }
 .buttons{
@@ -18,24 +23,37 @@ section{
     margin-bottom: 3em;
 }
 button{
-    margin: 4px;
-    height: 80px;
+    margin: 5px;
+    height: 70px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    background-color: rgba(192, 192, 192, 0.446);
+    border: 1px solid gold;
 }
 #reset{
+    margin-top: -15px;
     padding: 15px 25px;
     color: white;
-    background-color: blue;
+    background-color: gold;
+    font-weight: bolder;
+    font-size: larger;
     border: none;
 }
 #game_name{
-    color: red;
+    color: black;
     font-size: 40px;
     font-weight: bolder;
 }
 p{
-    color: blue;
+    color: white;
+    font-size: 25px;
+}
+#display{
+    width: 100%;
+    height: 4em;
+    border-radius: 5px;
+    color: white;
     font-size: larger;
+    font-weight: bolder;
 }
