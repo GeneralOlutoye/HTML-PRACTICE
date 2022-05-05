@@ -6,7 +6,7 @@ body{
 section{
     margin: 6em auto 0px auto;
     width: 25%;
-    height: 40%;
+    min-width: 25%;
     text-align: center;
     justify-content: center;
     justify-self: center;
@@ -20,7 +20,6 @@ section{
 .buttons{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-bottom: 3em;
 }
 button{
     margin: 5px;
@@ -32,7 +31,6 @@ button{
     border: 1px solid gold;
 }
 #reset{
-    margin-top: -15px;
     padding: 15px 25px;
     color: white;
     background-color: gold;
