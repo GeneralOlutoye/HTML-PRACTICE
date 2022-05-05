@@ -1,0 +1,39 @@
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid blue;
+    font-size: 64px;
+    text-align: center;
+}
+.cell:hover{
+    background-color: tomato;
+}
+#restart{
+    width: 120px;
+    height: 30px;
+    padding: 10px 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+#restart:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+.game_rules{
+    font-size: larger;
+}

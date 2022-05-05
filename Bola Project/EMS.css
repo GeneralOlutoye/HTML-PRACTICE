@@ -153,12 +153,12 @@ span{
     margin: 30px;
 }
 .row{
-    width: 80%;
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
 .item{
     display: flex;
@@ -198,18 +198,32 @@ span{
     .links{
         width: 100%;
         Min-height: 50%;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: space-evenly;
         align-items: center;
-        position: absolute;
+        /* position: absolute; */
         left: 0%;
         top: 70px;
         padding-top: 25px;
-        background-color: rgba(0, 0, 0, 0.9); 
         color: #fff;
         display: none;
     }
-    .other-links{
+    .show{
+        width: 100%;
+        Min-height: 50%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+         position: absolute; 
+        left: 0%;
+        top: 70px;
+        padding-top: 25px; 
+        width: 100%;
+        color: white;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    /* .other-links{
         width: 100%;
         Min-height: 50%;
         flex-direction: column;
@@ -223,7 +237,7 @@ span{
         color: #fff; 
         display: flex;
 
-    }
+    } */
     .other-links a{
         color: #fff;
     }
