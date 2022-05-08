@@ -5,15 +5,10 @@ body{
 }
 section{
     margin: 6em auto 0px auto;
-    width: 25%;
-    min-width: 25%;
+    width: 22rem;
     text-align: center;
-    justify-content: center;
-    justify-self: center;
     border: 1px solid gold;
     border-radius: 15px;
-    padding-left: 7px;
-    padding-right: 7px;
     background-color: rgba(0, 0, 0, 0.448);
 
 }
@@ -23,12 +18,12 @@ section{
 }
 button{
     margin: 5px;
-    height: 70px;
+    height: 64px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
     background-color: rgba(192, 192, 192, 0.446);
-    border: 1px solid gold;
+    border: 2px solid gold;
 }
 #reset{
     padding: 15px 25px;
@@ -54,4 +49,14 @@ p{
     color: white;
     font-size: larger;
     font-weight: bolder;
+}
+@media (max-width:800px) {
+    
+section{
+    margin: 6em auto 0px auto;
+    width: 17rem;
+    text-align: center;
+    border: 1px solid gold;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.448);
 }
