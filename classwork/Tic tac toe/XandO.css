@@ -2,6 +2,7 @@ body{
     background-image: url(/image/mercedex.avif);
     background-size: cover;
     background-position: 0rem;
+    background-repeat: no-repeat;
 }
 section{
     margin: 6em auto 0px auto;
@@ -50,13 +51,17 @@ p{
     font-size: larger;
     font-weight: bolder;
 }
+
 @media (max-width:800px) {
-    
-section{
-    margin: 6em auto 0px auto;
-    width: 17rem;
-    text-align: center;
-    border: 1px solid gold;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.448);
+    section{
+        width: 17rem;
+    }
+    #game_name{
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 17px;
+    }
 }
