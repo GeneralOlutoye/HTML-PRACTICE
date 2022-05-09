@@ -28,7 +28,6 @@ const outerdiv=document.getElementById('outerdiv')
 
 move.addEventListener('click', changeBlue)
 outerdiv.addEventListener('click', changeBlue, true)
-outerdiv.onmouseout=()=>outerdiv.style.backgroundColor='rgb(91, 153, 91)'
 
 function changeBlue(){
     alert(`you selected ${this.id}`)
