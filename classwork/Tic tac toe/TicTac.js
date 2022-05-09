@@ -1,6 +1,7 @@
-const cell= document.querySelectorAll('.cell')
+const cells= document.querySelectorAll('.cell')
 const restart= document.querySelector('#restart')
-const print= document.querySelector('#print')
+const statusText= document.querySelector('#print')
+let currentPlayer= 'X'
 
 let winConditions = [
     [0,3,6],
@@ -13,28 +14,26 @@ let winConditions = [
     [2,4,6],
 ]
 
-let Player_X= 'x'
-let Player_O= 'o'
-let board= ['','','','','','','','','']
+let options= ['','','','','','','','','']
+let running= false
 
-let is_Player_O_Turn= false
+initializeGame();
 
-startGame()
-
-restart.addEventListener('click', startGame)
-function startGame(){
-    is_Player_O_Turn= false
-    cell.forEach(cell =>{
-        cell.classList.remove(Player_Xl)
-        cell.classList.remove(Player_O)
-        cell.removeEventListener('click', handleCellClick)
-        cell.addEventListener('click', handleCellClick, {once: true})
-    })
-    setBoardHover()
-    print.classList.remove('show')
+function initializeGame(){
+    cells.forEach(cell=> cell.addEventListener('click', cellClicked))
+    restart.addEventListener('click', reset)
+    statusText.textContent= `${currentPlayer}'s turn`
+    running= true
 }
+function cellClicked(){
 
-function handleCellClick(e){
-    // const cell e.target
-    // const classList
+}
+function changePlayer(){
+
+}
+function updateCell(){
+
+}
+function reset(){
+
 }

@@ -13,9 +13,11 @@
 .cell{
     width: 75px;
     height: 75px;
-    border: 2px solid blue;
+    border: 1px solid blue;
+    border-collapse: collapse;
     font-size: 64px;
     text-align: center;
+    cursor: pointer;
 }
 .cell:hover{
     background-color: tomato;
@@ -36,4 +38,8 @@
 }
 .game_rules{
     font-size: larger;
+}
+
+.noborder{
+    border: none;
 }
