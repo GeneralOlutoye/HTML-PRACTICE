@@ -7,8 +7,9 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 90vh;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 button{
