@@ -3,9 +3,12 @@ body{
     color: white;
 }
 section{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 90vh;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 button{
@@ -21,9 +24,18 @@ button{
 }
 /* phone screen orientation */
 @media (max-width:400px) {
-.buttons{
+section{
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button{
+    height: 2em;
+    font-size: 1em;
+    padding: 0px 10px;  
 }
 
 }
