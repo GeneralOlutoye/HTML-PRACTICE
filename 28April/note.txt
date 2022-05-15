@@ -17,7 +17,7 @@ property called onmouseover.
 
 *onMouseup
 
-*onLoad - This is a very interesting propertye because the action it listens
+*onLoad - This is a very interesting property because the action it listens
     to is the load action. Meaning it gets executed upon loading the page
 
 
