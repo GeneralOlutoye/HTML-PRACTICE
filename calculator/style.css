@@ -1,6 +1,7 @@
 .container{
     max-width: 400px;
-    margin: 5vh auto 0 auto;
+    width: 25%;
+    /* margin: 5vh auto 0 auto; */
     box-shadow: 0px 0px 3px 3px rgb(94, 93, 93);
 }
 #display{
@@ -26,4 +27,9 @@ button{
 }
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }

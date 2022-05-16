@@ -15,8 +15,8 @@ let buttons = Array.from(document.getElementsByClassName('button'));
 // function AC(){
 //     display.value=""
 // }
-buttons.map( button => {
-    button.addEventListener('click', (e) => {
+buttons.map( b => {
+    b.addEventListener('click', (e) => {
         switch(e.target.innerText){
             case 'C':
                 display.innerText = '';

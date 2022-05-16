@@ -17,6 +17,12 @@ a{
     font-size: larger;
     position: fixed;
 }
+.container2{
+    background-color: rgba(0, 0, 0, 0.684);
+    padding: 5rem 2rem;
+    border-radius: 25px;
+    border: none;
+}
 .contain1text{
     display: inline-block;
     width: fit-content;
@@ -29,7 +35,6 @@ li{
 }
 .contain1text :hover{
     color: aqua;
-    
 }
 h4{
     color: white;
@@ -45,9 +50,13 @@ h4{
     width: fit-content;
 }
 #Homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    background-image: url(/image/SoftwareDev5.avif);
-    background-position: center;
+    background-image: url(/SoftwareDev5.avif);
+    background-position: 0%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -62,10 +71,9 @@ h4{
     width: fit-content;
 }
 .welcome{
-    color:  rgb(83, 15, 97);
+    color:  white;
     font-size: 50px;
-    margin-top: 20px;
-    font-weight: bolder;
+    font-weight: 600;
     text-shadow: 0px 0px 1px 2px white;
     justify-self: center;
     text-align: center;
@@ -80,26 +88,28 @@ h4{
     margin-bottom: 30px;
 }
 .hireme{
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: inherit;
     border: 2px solid white;
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
     width: 20%;
     font-size: large;
+    cursor: pointer;
 }
 .hireme:hover{
     background-color: aqua;
     color: black;
     size: 40%;
+    border: none;
 }
 #About{
-    justify-content: center;
     width: 80%;
-    background-image: url(/image/SoftwareDev5.avif);
+    background-image: url(/SoftwareDev5.avif);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0%;
     margin-left: auto;
 }
 #AboutText{
