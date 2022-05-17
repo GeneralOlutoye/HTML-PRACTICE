@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    padding: 10rem;
+    height: 10rem;
+    border: 2px solid salmon;
+}
