@@ -1,12 +1,35 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(005ba95fbfa44acc56bb151a787f3590.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#container{
-    padding: 10rem;
-    height: 10rem;
-    border: 2px solid salmon;
+h1{
+    font-size: 100px;
+    /* color: bisque; */
+    text-shadow: 10px;
+}
+#txtArea{
+    width: 30%;
+    height: 3em;
+    margin-left: 12rem;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+    
+}
+button{
+    border: none;
+    height: 3em;
+    padding: 0px 10px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
 }
