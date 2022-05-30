@@ -33,20 +33,21 @@ body{
 
 /*  */
 .main-container{
-    min-height: 100vh;
+    min-height: 50vh;
     max-width: 1280px;
     margin: 0 auto;
+    background: rgb(8, 8, 8);
     padding: 2rem;
-    background: rgb(153, 151, 151);
-    background-image: url(/image/Burger2.jpg);
-    background-position: 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
 }
 .home{
-    margin: 2rem 0;
+    padding-top: 20px;
     color: #f0f0f0;
+    background-image: url(/image/Burger2.jpg);
+    height: 70vh;
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .meal-search cite{
     font-size: 1rem;
