@@ -37,7 +37,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
-    /* background: rgb(153, 151, 151); */
+    background: rgb(153, 151, 151);
     background-image: url(/image/Burger2.jpg);
     background-position: 0%;
     background-size: cover;
@@ -71,13 +71,13 @@ body{
     border-bottom-left-radius: 2rem;
 }
 .search-control::placeholder{
-    color: var(--tenne-tawny);
+    color: black;
 }
 .search-btn{
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
-    background: var(--tenne-tawny);
+    background: gray;
     color: #fff;
     border: none;
     border-top-right-radius: 2rem;
@@ -122,7 +122,8 @@ body{
 .recipe-btn{
     text-decoration: none;
     color: #fff;
-    background: var(--tenne-tawny);
+    border: 2px solid white;
+    background: inherit;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
