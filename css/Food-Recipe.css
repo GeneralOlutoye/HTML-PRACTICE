@@ -79,7 +79,7 @@ body{
     height: 55px;
     font-size: 1.8rem;
     background: gray;
-    color: #fff;
+    color: black;
     border: none;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -90,7 +90,9 @@ body{
     -o-transition: all 0.4s linear;
 }
 .search-btn:hover{
-    background: var(--tenne-tawny-dark);
+    background: black;
+    color: #f0f0f0;
+    border: 1px solid blue;
 }
 .meal-result{
     margin-top: 2rem;
