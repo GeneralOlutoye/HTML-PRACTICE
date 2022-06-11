@@ -4,7 +4,7 @@ const display= document.querySelector('#display')
 
 let city
 getBtn.addEventListener('click', () => {
-    city = TxtArea.value 
+    city = TxtArea.value
     fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=5d18828185d71c238c11c35c2d12b7eb&units=metric`)
     .then (weather =>{
         return weather.json()
@@ -13,7 +13,7 @@ getBtn.addEventListener('click', () => {
         display.textContent=`The weather in ${city} is ${olutoye.main.temp}°C`
     })
 })
-
+  
 let course= 'softwareDev' 
 let price= 100
 let main_goal=['work as a dev', 'make lots of money', 'build my own app']

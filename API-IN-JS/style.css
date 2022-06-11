@@ -21,7 +21,6 @@ h1{
 #txtArea{
     width: 30%;
     height: 3em;
-    /* margin-left: 12rem; */
     background-color: white;
     border-radius: 7px;
     color: black;
@@ -43,4 +42,13 @@ button{
     color: white;
     font: 2rem sans-serif;
     margin-top: 1em;
+}
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px 2px red,
+                     4px 4px 2px black;
+    }
+
 }
