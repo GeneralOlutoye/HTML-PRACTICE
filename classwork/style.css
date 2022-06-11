@@ -1,0 +1,73 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 600px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #9fbce48f;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+h2{
+    margin: 8px 20px 20px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 15px;
+    margin: 1px solid  rgb(10, 123, 189);
+    background-color: rgba(0, 0, 0, 0.596);
+    font-size: large;
+}
+input{
+    margin: 20px 30px 20px 30px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    background-color: rgba(59, 57, 57, 0);
+    font-size: larger;
+}
+input[type="email"]{
+    border: none;
+    border-bottom: 1px solid yellow;
+    background-color:rgba(0, 0, 0, 0);
+    font-size: larger;
+    margin-bottom: 30px;
+}
+input[type="password"]{
+    border: none;
+    border-bottom: 1px solid yellow;
+    background-color:rgba(0, 0, 0, 0);
+    font-size: larger;
+    margin-bottom: 30px;
+}
+button{
+    width: 70%;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.658);
+    font-size: larger;
+    border: none;
+    padding: 12px;
+}
+.text{
+    color:  whitesmoke;
+    margin-bottom: 50px;
+}
+.text span{
+    color: red;
+}
+body{
+    background-image: url(/classwork/bmw.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}
+.twitter{
+    border-radius: 25px;
+    width: 12%;
+}
+.instagram{
+    border-radius: 15px;
+}
