@@ -201,7 +201,7 @@
 // var petName= "Jessie"
 // var breed="Labrador"
 // var age=3
-// var petDescription=petName+breed+", "+age
+// var petDescription = petName + breed +", " + age
 // // console.log("petName and age = " + petDescription)
 // console.log("petName and age = "+ petName + "-" + breed + ", " + age)
 
